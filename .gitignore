@@ -1,0 +1,8 @@
+# Python virtual environments
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Flutter/Dart build files
+frontend/.dart_tool/
+frontend/build/

@@ -3,9 +3,11 @@ backend/.venv/
 backend/venv/
 backend/env/
 backend/__pycache__/
-backend/*.pyc
-backend/*.pyd
-backend/*.pyo
+# Ignore all __pycache__ directories in any subdirectory
+**/__pycache__/
+
+# Ignore all .pyc, .pyo, and .pyd files anywhere in the project
+*.py[cod]
 
 # Flutter/Dart build files
 frontend/.dart_tool/

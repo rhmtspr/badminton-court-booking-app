@@ -20,3 +20,6 @@ class Booking(models.Model):
 
     class Meta:
         ordering = ["-booking_date"]
+        indexes = [
+            models.Index(fields=["court", "booking_date"]),
+        ]
